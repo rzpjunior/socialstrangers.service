@@ -6,7 +6,7 @@ const authorize = require('_middleware/authorize')
 const userService = require('./user.service');
 
 // routes
-router.post('/authenticate', authenticateSchema, authenticate);
+router.post('/auth', authenticateSchema, authenticate);
 router.post('/register', registerSchema, register);
 router.get('/', authorize(), getAll);
 router.get('/current', authorize(), getCurrent);
