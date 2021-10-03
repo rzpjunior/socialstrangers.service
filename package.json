@@ -1,5 +1,5 @@
 {
-  "name": "kas-service",
+  "name": "socialstrangers.service",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rzpjunior/kas-service.git"
+    "url": "git+https://github.com/rzpjunior/socialstrangers.service.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rzpjunior/kas-service/issues"
+    "url": "https://github.com/rzpjunior/socialstrangers.service/issues"
   },
-  "homepage": "https://github.com/rzpjunior/kas-service#readme",
+  "homepage": "https://github.com/rzpjunior/socialstrangers.service#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
